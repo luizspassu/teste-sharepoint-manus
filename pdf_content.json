@@ -1,0 +1,196 @@
+{
+  "projeto": {
+    "nome": "SharePoint Imagine LABS",
+    "titulo": "Redesign Hub",
+    "descricao": "Plataforma estratégica de redesign do SharePoint Imagine LABS com foco em IA, metodologia ágil e experiência do usuário"
+  },
+  "contexto": {
+    "situacaoAtual": "O portal SharePoint atual apresenta uma navegação complexa com muitos níveis de profundidade, falta de destaque para funcionalidades de IA e ausência de chamadas claras à ação (CTAs) para os usuários.",
+    "problemas": [
+      "Navegação complexa - múltiplos níveis profundos dificultam a localização de conteúdo",
+      "Menu desorganizado - confuso e sem estrutura estratégica",
+      "Falta de destaque em IA - inteligência artificial não é evidenciada",
+      "Sem CTAs claros - colaboradores não sabem por onde começar"
+    ],
+    "porqueRedesign": [
+      "Simplificar navegação - reduzir profundidade e criar estrutura intuitiva",
+      "Menu estratégico - organizar com uma lógica clara e diferenciada",
+      "Sem CTAs desorganizados - colaboradores com dúvida em um caminho claro",
+      "Destaque em IA - 20 discussões com foco em IA e metodologia ágil"
+    ]
+  },
+  "propostaDeValor": {
+    "navegacao": "Estrutura simplificada - 6 seções principais bem definidas",
+    "ia": "Incluir na estrutura - Seção de IA com destaque e diferenciação estratégica",
+    "engajamento": "CTAs estruturados - Caminhos claros para diferentes tipos de usuários",
+    "metodologia": "Metodologia ágil - Documentação e ferramentas para adotar práticas ágeis",
+    "acessibilidade": "Melhor usabilidade - Foco em acessibilidade e experiência do usuário"
+  },
+  "proximosPassos": {
+    "fase2": "Prototipagem - Criar wireframes e protótipos interativos",
+    "validacao": "Validação com stakeholders - Apresentar e coletar feedback",
+    "desenvolvimento": "Desenvolvimento - Implementar no SharePoint com SPFx se necessário",
+    "testes": "Testes e refinamento - Validar com usuários reais"
+  },
+  "arquiteturaInformacao": {
+    "estadoAtual": {
+      "titulo": "Estrutura Atual (AS-IS)",
+      "descricao": "Navegação profunda com múltiplos níveis",
+      "niveis": "6+ níveis de profundidade em alguns caminhos"
+    },
+    "estadoFuturo": {
+      "titulo": "Estrutura Proposta (TO-BE)",
+      "descricao": "Navegação simplificada com 6 seções principais",
+      "secoes": [
+        "Home",
+        "IA & Inovação",
+        "Metodologia Ágil",
+        "Hub de Recursos",
+        "Comunidade",
+        "Suporte"
+      ]
+    }
+  },
+  "briefingPaginas": {
+    "home": {
+      "titulo": "Home",
+      "elementos": [
+        "Banner principal com proposta de valor",
+        "CTAs para seções principais",
+        "Destaque para IA e inovação",
+        "Últimas novidades e atualizações",
+        "Acesso rápido a ferramentas principais"
+      ]
+    },
+    "ia_inovacao": {
+      "titulo": "IA & Inovação",
+      "elementos": [
+        "Visão geral de ferramentas de IA",
+        "Casos de uso e exemplos práticos",
+        "Documentação técnica",
+        "Comunidade de usuários",
+        "Roadmap de novas funcionalidades"
+      ]
+    },
+    "metodologia_agil": {
+      "titulo": "Metodologia Ágil",
+      "elementos": [
+        "Princípios e práticas ágeis",
+        "Guias de implementação",
+        "Templates e ferramentas",
+        "Histórias de sucesso",
+        "Treinamentos e certificações"
+      ]
+    },
+    "hub_recursos": {
+      "titulo": "Hub de Recursos",
+      "elementos": [
+        "Biblioteca de documentos",
+        "Modelos e templates",
+        "Ferramentas e utilitários",
+        "Links para plataformas externas",
+        "Base de conhecimento"
+      ]
+    },
+    "comunidade": {
+      "titulo": "Comunidade",
+      "elementos": [
+        "Fórum de discussão",
+        "Grupos de interesse",
+        "Eventos e webinars",
+        "Perfis de usuários",
+        "Colaboração e networking"
+      ]
+    },
+    "suporte": {
+      "titulo": "Suporte",
+      "elementos": [
+        "FAQ e troubleshooting",
+        "Contato com time de suporte",
+        "Tickets de suporte",
+        "Base de conhecimento",
+        "Feedback e sugestões"
+      ]
+    }
+  },
+  "personas": [
+    {
+      "nome": "Gestor TI",
+      "descricao": "Responsável pela infraestrutura e governança",
+      "interesses": [
+        "Segurança e conformidade",
+        "Performance e escalabilidade",
+        "Integração com sistemas existentes",
+        "Relatórios e analytics"
+      ],
+      "prioridades": "Alta"
+    },
+    {
+      "nome": "Desenvolvedor",
+      "descricao": "Implementa soluções técnicas",
+      "interesses": [
+        "Documentação técnica",
+        "APIs e integrações",
+        "Exemplos de código",
+        "Comunidade de desenvolvedores"
+      ],
+      "prioridades": "Alta"
+    },
+    {
+      "nome": "Equipe Editorial",
+      "descricao": "Cria e gerencia conteúdo",
+      "interesses": [
+        "Ferramentas de criação",
+        "Fluxo de publicação",
+        "Templates de conteúdo",
+        "Calendário editorial"
+      ],
+      "prioridades": "Média"
+    },
+    {
+      "nome": "Colaborador",
+      "descricao": "Usuário final que consome conteúdo",
+      "interesses": [
+        "Acesso fácil a informações",
+        "Busca eficiente",
+        "Recomendações personalizadas",
+        "Comunicação clara"
+      ],
+      "prioridades": "Alta"
+    }
+  ],
+  "matrizPermissoes": {
+    "gestor_ti": {
+      "home": "Visualizar",
+      "ia_inovacao": "Visualizar, Editar",
+      "metodologia_agil": "Visualizar",
+      "hub_recursos": "Visualizar, Editar",
+      "comunidade": "Visualizar, Moderar",
+      "suporte": "Visualizar, Gerenciar"
+    },
+    "desenvolvedor": {
+      "home": "Visualizar",
+      "ia_inovacao": "Visualizar, Comentar",
+      "metodologia_agil": "Visualizar",
+      "hub_recursos": "Visualizar, Contribuir",
+      "comunidade": "Visualizar, Participar",
+      "suporte": "Visualizar, Reportar"
+    },
+    "equipe_editorial": {
+      "home": "Visualizar, Editar",
+      "ia_inovacao": "Visualizar, Editar",
+      "metodologia_agil": "Visualizar, Editar",
+      "hub_recursos": "Visualizar, Editar",
+      "comunidade": "Visualizar, Moderar",
+      "suporte": "Visualizar"
+    },
+    "colaborador": {
+      "home": "Visualizar",
+      "ia_inovacao": "Visualizar",
+      "metodologia_agil": "Visualizar",
+      "hub_recursos": "Visualizar",
+      "comunidade": "Visualizar, Participar",
+      "suporte": "Visualizar, Reportar"
+    }
+  }
+}

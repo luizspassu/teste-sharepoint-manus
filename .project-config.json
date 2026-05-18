@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310419663028347838/JerpDWjxjXYt3WcTFDaxTG",
+    "access_key_id": "ASIAZV3A2ECZCVTYQF36",
+    "secret_access_key": "b/MhZweYF2WnTppRBs1OfTDr8UBgdX/uHOP+WFtY",
+    "session_token": "IQoJb3JpZ2luX2VjEPb//////////wEaCXVzLWVhc3QtMSJHMEUCIQCW94tfVqC0MUFOBZeCBd8f7DD15FQDgLh7GHD2gvLaswIgcDfV15P88E6f6GPX+IwNb9jar2LxuC2yoEjaLhto2Msq/wMIv///////////ARAEGgw2NjUzODYwOTg4NjYiDP4hilVORrs/ecKnyirTA1z7CfMm4+PA7PfPL96Nmb+gKXaxJ4//TWobhEQZA1wtuHg92ds10DkGOJe3C2gaZB88juchNom35HUPuqIS36FFQu5QkvcOnPVA36H5H9iMQPdPW79qoULEYvW7ePmfJQQNuEVdEyELUoG+uX2tbNCrRo14MAvgibQXJaFSc/3b2kDECAkEWD6pbGugo3Fw6d0In8Une/T7ywVBNxDGxS+TvM0KiGbWRlvbfnaKYbkr4X7Hhf2kV/cFQYjzBXpPzAfhyP9UujlwPQBO0UM48vCSDlWlLpfxYYtp6OwqXqtFhRTiT1CTbUP8qqDyzForFNqDyD0qOV7PkKiJGZmkCkZc/32x7E+1YpsrRZMqhsihgy7MDoXCXtyhOap9FFY3jNt2QaUx9Ii349G2oUd6ij6z85jXVg2eHtG1cLzWHVnehmTNWR0d9T/a13xRlHHqBgd4xiy+OUZOFPEdl3TuZ/RVRipidzQvrxMVXtiJovrUaKGvBm6ejfmIvD/w4gBOdDLtMLaO/N9zoNJQD8c95K98X2U/kFtkS1i2nYggPLYwm6Lg9Bbt5IW9UdFuVj+38ksGO769DCkAUazqS1Pnc60m8Fa7+vxrpvMKWijwY3PXXHOLMOKmrNAGOp0BP2eKIcX+6bVP1Zyqw/z+hTeTx6voWZZ7cVkZp2SOJDHRZHeBoV1S6ZV/gAsBB8mmOOEKyYpeTYbxFRu5sC+2UPV4q82S4MuT4R053BQR9xfXF/wJ5s8zQrAt2mMggIkubP25kn5LvzHJebRE9RxtXOq8BYYIQCKC+Lw8fGLUqQdf5/Z9O3Seq6858g1HKGSIWK8aIgZjrZPrqFgFYg==",
+    "expiration": "2026-05-19T01:25:54.000Z"
+  },
+  "name": "sharepoint_imagine_labs",
+  "path": "/home/ubuntu/sharepoint_imagine_labs",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "BxDgAuGaAhnNqA9FFLpRkP",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "BLDndbd4XRXCrvcgn3FUSp",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Luiz Felipe de Freitas",
+    "OWNER_OPEN_ID": "CiwEN9voYuYsoMdZw7VUjv",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "b054e218-33ef-4736-8fc0-b62b39a5972d",
+    "VITE_APP_ID": "JerpDWjxjXYt3WcTFDaxTG",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "SharePoint Imagine LABS - Redesign Hub",
+    "VITE_FRONTEND_FORGE_API_KEY": "PSBkkjD4AAQvdB68KmD7QX",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
